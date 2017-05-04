@@ -79,6 +79,9 @@ RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
 # Add the composer.json
 COPY ./composer.json /home/laradock/.composer/composer.json
+COPY ./config.json /home/laradock/.composer/config.json
+COPY ./auth.json.example /home/laradock/.composer/auth.json
+COPY ./auth.json /home/laradock/.composer/auth.json
 
 # Make sure that ~/.composer belongs to laradock
 RUN chown -R laradock:laradock /home/laradock/.composer
@@ -128,6 +131,7 @@ RUN echo "" >> ~/.bashrc && \
 ARG INSTALL_XDEBUG=false
 RUN if [ ${INSTALL_XDEBUG} = true ]; then \
     # Load the xdebug extension only with phpunit commands
+    sed -i 's/archive.ubuntu.com/mirrors.aliyun.com/g' /etc/apt/sources.list && \
     apt-get update && \
     apt-get install -y --force-yes php5.6-xdebug && \
     sed -i 's/^/;/g' /etc/php/5.6/cli/conf.d/20-xdebug.ini && \
@@ -213,9 +217,17 @@ ARG INSTALL_NODE=false
 ENV INSTALL_NODE ${INSTALL_NODE}
 ENV NVM_DIR /home/laradock/.nvm
 RUN if [ ${INSTALL_NODE} = true ]; then \
+    echo "" >> ~/.bashrc && \
+    echo 'export NVM_NODEJS_ORG_MIRROR=https://npm.taobao.org/mirrors/node' >> ~/.bashrc \
+    echo 'export NVMW_NODEJS_ORG_MIRROR=https://npm.taobao.org/mirrors/node' >> ~/.bashrc \
+;fi
+
+RUN if [ ${INSTALL_NODE} = true ]; then \
+    echo 'registry=https://registry.npm.taobao.org' >> ~/.npmrc && \
     # Install nvm (A Node Version Manager)
     curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.1/install.sh | bash && \
         . $NVM_DIR/nvm.sh && \
+        NVM_NODEJS_ORG_MIRROR=https://npm.taobao.org/mirrors/node nvm install ${NODE_VERSION} && \
         nvm install ${NODE_VERSION} && \
         nvm use ${NODE_VERSION} && \
         nvm alias ${NODE_VERSION} && \
@@ -251,12 +263,15 @@ ARG YARN_VERSION=latest
 ENV YARN_VERSION ${YARN_VERSION}
 
 RUN if [ ${INSTALL_YARN} = true ]; then \
+    echo 'registry "https://registry.npm.taobao.org"' >> ~/.yarnrc && \
     [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" && \
-    if [ ${YARN_VERSION} = "latest" ]; then \
-        curl -o- -L https://yarnpkg.com/install.sh | bash; \
-    else \
-        curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version ${YARN_VERSION}; \
-    fi && \
+    npm --registry https://registry.npm.taobao.org install -g yarn cyarn && \
+    yarn config set registry https://registry.npm.taobao.org && \
+#    if [ ${YARN_VERSION} = "latest" ]; then \
+#        curl -o- -L https://yarnpkg.com/install.sh | bash; \
+#    else \
+#        curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version ${YARN_VERSION}; \
+#    fi && \
     echo "" >> ~/.bashrc && \
     echo 'export PATH="$HOME/.yarn/bin:$PATH"' >> ~/.bashrc \
 ;fi

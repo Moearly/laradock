@@ -8,6 +8,14 @@ services:
       image: tianon/true
       volumes:
         - ${APPLICATION}:/var/www
+        - ${APPLICATION}zhihu-app/:/var/www/zhihu-app
+        - ${APPLICATION}phphub5/:/var/www/phphub5
+        - ${APPLICATION}larablog/:/var/www/larablog
+        - ${APPLICATION}live_7niu_rong_server/:/var/www/live_7niu_rong_server
+        - ${APPLICATION}live_show_7niu_server/:/var/www/live_show_7niu_server
+        - ${APPLICATION}laravel-gentelella/:/var/www/laravel-gentelella
+        - ${APPLICATION}EnglishCommunity-laravel/:/var/www/EnglishCommunity-laravel
+        - ${APPLICATION}daza-backend/:/var/www/daza-backend
 
 ### Workspace Utilities Container ###########################
 
@@ -41,13 +49,18 @@ services:
       volumes_from:
         - applications
       extra_hosts:
-        - "dockerhost:${DOCKER_HOST_IP}"
+       - "dockerhost:${DOCKER_HOST_IP}"
+        # - "dockerhost:10.200.10.1"
       ports:
         - "${WORKSPACE_SSH_PORT}:22"
       tty: true
       networks:
         - frontend
         - backend
+      environment:
+        - APP_ENV=local
+#       - HTTP_PROXY=http://127.0.0.1:1984
+#       - HTTPS_PROXY=http://127.0.0.1:1984
 
 ### PHP-FPM Container #######################################
 
@@ -80,7 +93,8 @@ services:
       depends_on:
         - workspace
       extra_hosts:
-        - "dockerhost:${DOCKER_HOST_IP}"
+        # - "dockerhost:10.200.10.1"
+       - "dockerhost:${DOCKER_HOST_IP}"
       environment:
         - PHP_IDE_CONFIG=${PHP_IDE_CONFIG}
       networks:
