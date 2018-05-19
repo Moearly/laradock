@@ -16,6 +16,18 @@ services:
         - ${APPLICATION}laravel-gentelella/:/var/www/laravel-gentelella
         - ${APPLICATION}EnglishCommunity-laravel/:/var/www/EnglishCommunity-laravel
         - ${APPLICATION}daza-backend/:/var/www/daza-backend
+        - ${APPLICATION}biping_live/:/var/www/biping_live
+        - ${APPLICATION}laravel-admin.org/:/var/www/laravel-admin.org
+        - ${APPLICATION}matters/:/var/www/matters
+        - ${APPLICATION}laracms/:/var/www/laracms
+        - ${APPLICATION}jianzhan/:/var/www/jianzhan
+        - ${APPLICATION}fupaisy/:/var/www/fupaisy
+        - ${APPLICATION}pet/:/var/www/pet
+        - ${APPLICATION}laravel_template_with_vue/:/var/www/laravel_template_with_vue
+        - ${APPLICATION}newBlog/:/var/www/newBlog
+        
+        
+    
 
 ### Workspace Utilities Container ###########################
 
@@ -130,8 +142,12 @@ services:
       depends_on:
         - php-fpm
       networks:
-        - frontend
-        - backend
+        frontend:
+         aliases:
+          - matters.test1
+        backend:
+         aliases:
+          - matters.test1
 
 ### Blackfire Container #################################
 

@@ -1,0 +1,114 @@
+2017/05/09 08:14:46 [warn] 1#1: conflicting server name "project-2.dev" on 0.0.0.0:80, ignored
+2017/05/09 08:14:46 [warn] 1#1: conflicting server name "project-2.dev" on [::]:80, ignored
+2017/05/18 02:22:44 [warn] 1#1: conflicting server name "project-2.dev" on 0.0.0.0:80, ignored
+2017/05/18 02:22:44 [warn] 1#1: conflicting server name "project-2.dev" on [::]:80, ignored
+2017/05/19 02:11:44 [warn] 1#1: conflicting server name "project-2.dev" on 0.0.0.0:80, ignored
+2017/05/19 02:11:44 [warn] 1#1: conflicting server name "project-2.dev" on [::]:80, ignored
+2017/05/19 09:43:58 [warn] 1#1: conflicting server name "project-2.dev" on 0.0.0.0:80, ignored
+2017/05/19 09:43:58 [warn] 1#1: conflicting server name "project-2.dev" on [::]:80, ignored
+2017/05/21 07:05:49 [warn] 1#1: conflicting server name "project-2.dev" on 0.0.0.0:80, ignored
+2017/05/21 07:05:49 [warn] 1#1: conflicting server name "project-2.dev" on [::]:80, ignored
+2017/05/23 03:27:15 [warn] 1#1: conflicting server name "project-2.dev" on 0.0.0.0:80, ignored
+2017/05/23 03:27:15 [warn] 1#1: conflicting server name "project-2.dev" on [::]:80, ignored
+2017/05/24 06:02:27 [warn] 1#1: conflicting server name "project-2.dev" on 0.0.0.0:80, ignored
+2017/05/24 06:02:27 [warn] 1#1: conflicting server name "project-2.dev" on [::]:80, ignored
+2017/05/24 09:37:36 [warn] 1#1: conflicting server name "project-2.dev" on 0.0.0.0:80, ignored
+2017/05/24 09:37:36 [warn] 1#1: conflicting server name "project-2.dev" on [::]:80, ignored
+2017/05/24 15:28:14 [warn] 1#1: conflicting server name "project-2.dev" on 0.0.0.0:80, ignored
+2017/05/24 15:28:14 [warn] 1#1: conflicting server name "project-2.dev" on [::]:80, ignored
+2017/05/27 03:01:04 [warn] 1#1: conflicting server name "project-2.dev" on 0.0.0.0:80, ignored
+2017/05/27 03:01:04 [warn] 1#1: conflicting server name "project-2.dev" on [::]:80, ignored
+2017/05/29 14:53:18 [warn] 1#1: conflicting server name "project-2.dev" on 0.0.0.0:80, ignored
+2017/05/29 14:53:18 [warn] 1#1: conflicting server name "project-2.dev" on [::]:80, ignored
+2017/05/30 01:37:27 [warn] 1#1: conflicting server name "project-2.dev" on 0.0.0.0:80, ignored
+2017/05/30 01:37:27 [warn] 1#1: conflicting server name "project-2.dev" on [::]:80, ignored
+2017/05/30 19:40:08 [warn] 1#1: conflicting server name "project-2.dev" on 0.0.0.0:80, ignored
+2017/05/30 19:40:08 [warn] 1#1: conflicting server name "project-2.dev" on [::]:80, ignored
+2017/06/04 06:52:01 [warn] 1#1: conflicting server name "project-2.dev" on 0.0.0.0:80, ignored
+2017/06/04 06:52:01 [warn] 1#1: conflicting server name "project-2.dev" on [::]:80, ignored
+2017/06/04 06:59:31 [warn] 1#1: conflicting server name "project-2.dev" on 0.0.0.0:80, ignored
+2017/06/04 06:59:31 [warn] 1#1: conflicting server name "project-2.dev" on [::]:80, ignored
+2017/06/04 07:46:04 [warn] 1#1: conflicting server name "project-2.dev" on 0.0.0.0:80, ignored
+2017/06/04 07:46:04 [warn] 1#1: conflicting server name "project-2.dev" on [::]:80, ignored
+2017/06/06 03:49:30 [warn] 1#1: conflicting server name "project-2.dev" on 0.0.0.0:80, ignored
+2017/06/06 03:49:30 [warn] 1#1: conflicting server name "project-2.dev" on [::]:80, ignored
+2017/06/08 09:45:48 [warn] 1#1: conflicting server name "project-2.dev" on 0.0.0.0:80, ignored
+2017/06/08 09:45:48 [warn] 1#1: conflicting server name "project-2.dev" on [::]:80, ignored
+2017/06/09 08:40:11 [warn] 1#1: conflicting server name "project-2.dev" on 0.0.0.0:80, ignored
+2017/06/09 08:40:11 [warn] 1#1: conflicting server name "project-2.dev" on [::]:80, ignored
+2017/06/14 13:24:44 [warn] 1#1: conflicting server name "project-2.dev" on 0.0.0.0:80, ignored
+2017/06/14 13:24:44 [warn] 1#1: conflicting server name "project-2.dev" on [::]:80, ignored
+2017/07/17 13:39:29 [warn] 1#1: conflicting server name "project-2.dev" on 0.0.0.0:80, ignored
+2017/07/17 13:39:29 [warn] 1#1: conflicting server name "project-2.dev" on [::]:80, ignored
+2017/08/16 02:24:09 [warn] 1#1: conflicting server name "project-2.dev" on 0.0.0.0:80, ignored
+2017/08/16 02:24:09 [warn] 1#1: conflicting server name "project-2.dev" on [::]:80, ignored
+2017/08/20 02:39:22 [warn] 1#1: conflicting server name "project-2.dev" on 0.0.0.0:80, ignored
+2017/08/20 02:39:22 [warn] 1#1: conflicting server name "project-2.dev" on [::]:80, ignored
+2017/08/22 01:42:11 [warn] 1#1: conflicting server name "project-2.dev" on 0.0.0.0:80, ignored
+2017/08/22 01:42:11 [warn] 1#1: conflicting server name "project-2.dev" on [::]:80, ignored
+2017/08/25 04:14:44 [warn] 1#1: conflicting server name "project-2.dev" on 0.0.0.0:80, ignored
+2017/08/25 04:14:44 [warn] 1#1: conflicting server name "project-2.dev" on [::]:80, ignored
+2017/08/27 02:07:54 [warn] 1#1: conflicting server name "project-2.dev" on 0.0.0.0:80, ignored
+2017/08/27 02:07:54 [warn] 1#1: conflicting server name "project-2.dev" on [::]:80, ignored
+2017/08/28 01:28:22 [warn] 1#1: conflicting server name "project-2.dev" on 0.0.0.0:80, ignored
+2017/08/28 01:28:22 [warn] 1#1: conflicting server name "project-2.dev" on [::]:80, ignored
+2017/08/31 08:46:16 [warn] 1#1: conflicting server name "project-2.dev" on 0.0.0.0:80, ignored
+2017/08/31 08:46:16 [warn] 1#1: conflicting server name "project-2.dev" on [::]:80, ignored
+2017/09/01 03:28:16 [warn] 1#1: conflicting server name "project-2.dev" on 0.0.0.0:80, ignored
+2017/09/01 03:28:16 [warn] 1#1: conflicting server name "project-2.dev" on [::]:80, ignored
+2017/09/02 02:04:31 [warn] 1#1: conflicting server name "project-2.dev" on 0.0.0.0:80, ignored
+2017/09/02 02:04:31 [warn] 1#1: conflicting server name "project-2.dev" on [::]:80, ignored
+2017/09/02 03:38:43 [warn] 1#1: conflicting server name "project-2.dev" on 0.0.0.0:80, ignored
+2017/09/02 03:38:43 [warn] 1#1: conflicting server name "project-2.dev" on [::]:80, ignored
+2017/09/02 03:48:58 [warn] 1#1: conflicting server name "project-2.dev" on 0.0.0.0:80, ignored
+2017/09/02 03:48:58 [warn] 1#1: conflicting server name "project-2.dev" on [::]:80, ignored
+2017/09/03 02:08:10 [warn] 1#1: conflicting server name "project-2.dev" on 0.0.0.0:80, ignored
+2017/09/03 02:08:10 [warn] 1#1: conflicting server name "project-2.dev" on [::]:80, ignored
+2017/09/04 01:31:41 [warn] 1#1: conflicting server name "project-2.dev" on 0.0.0.0:80, ignored
+2017/09/04 01:31:41 [warn] 1#1: conflicting server name "project-2.dev" on [::]:80, ignored
+2017/09/28 07:43:50 [warn] 1#1: conflicting server name "project-2.dev" on 0.0.0.0:80, ignored
+2017/09/28 07:43:50 [warn] 1#1: conflicting server name "project-2.dev" on [::]:80, ignored
+2017/10/09 02:27:01 [warn] 1#1: conflicting server name "project-2.dev" on 0.0.0.0:80, ignored
+2017/10/09 02:27:01 [warn] 1#1: conflicting server name "project-2.dev" on [::]:80, ignored
+2017/10/10 01:41:18 [warn] 1#1: conflicting server name "project-2.dev" on 0.0.0.0:80, ignored
+2017/10/10 01:41:18 [warn] 1#1: conflicting server name "project-2.dev" on [::]:80, ignored
+2017/10/11 01:32:55 [warn] 1#1: conflicting server name "project-2.dev" on 0.0.0.0:80, ignored
+2017/10/11 01:32:55 [warn] 1#1: conflicting server name "project-2.dev" on [::]:80, ignored
+2017/10/12 03:06:51 [warn] 1#1: conflicting server name "project-2.dev" on 0.0.0.0:80, ignored
+2017/10/12 03:06:51 [warn] 1#1: conflicting server name "project-2.dev" on [::]:80, ignored
+2017/10/16 08:18:23 [warn] 1#1: conflicting server name "project-2.dev" on 0.0.0.0:80, ignored
+2017/10/16 08:18:23 [warn] 1#1: conflicting server name "project-2.dev" on [::]:80, ignored
+2017/10/18 01:31:31 [warn] 1#1: conflicting server name "project-2.dev" on 0.0.0.0:80, ignored
+2017/10/18 01:31:31 [warn] 1#1: conflicting server name "project-2.dev" on [::]:80, ignored
+2017/11/10 08:16:27 [warn] 1#1: conflicting server name "project-2.dev" on 0.0.0.0:80, ignored
+2017/11/10 08:16:27 [warn] 1#1: conflicting server name "project-2.dev" on [::]:80, ignored
+2017/11/13 08:13:33 [warn] 1#1: conflicting server name "project-2.dev" on 0.0.0.0:80, ignored
+2017/11/13 08:13:33 [warn] 1#1: conflicting server name "project-2.dev" on [::]:80, ignored
+2017/11/13 08:22:02 [warn] 1#1: conflicting server name "project-2.dev" on 0.0.0.0:80, ignored
+2017/11/13 08:22:02 [warn] 1#1: conflicting server name "project-2.dev" on [::]:80, ignored
+2017/11/18 08:18:11 [warn] 1#1: conflicting server name "project-2.dev" on 0.0.0.0:80, ignored
+2017/11/18 08:18:11 [warn] 1#1: conflicting server name "project-2.dev" on [::]:80, ignored
+2018/03/12 11:52:39 [warn] 1#1: conflicting server name "project-2.dev" on 0.0.0.0:80, ignored
+2018/03/12 11:52:39 [warn] 1#1: conflicting server name "project-2.dev" on [::]:80, ignored
+2018/03/12 12:02:53 [warn] 1#1: conflicting server name "project-2.dev" on 0.0.0.0:80, ignored
+2018/03/12 12:02:53 [warn] 1#1: conflicting server name "project-2.dev" on [::]:80, ignored
+2018/04/24 13:16:17 [emerg] 1#1: unknown directive ":quser" in /etc/nginx/nginx.conf:1
+2018/04/24 13:20:40 [emerg] 1#1: unknown directive ":quser" in /etc/nginx/nginx.conf:1
+2018/04/24 13:21:10 [emerg] 1#1: unknown directive ":quser" in /etc/nginx/nginx.conf:1
+2018/04/24 13:25:01 [emerg] 1#1: unknown directive ":quser" in /etc/nginx/nginx.conf:1
+2018/04/24 13:25:15 [emerg] 1#1: unknown directive ":quser" in /etc/nginx/nginx.conf:1
+2018/04/24 13:25:28 [emerg] 1#1: unknown directive ":quser" in /etc/nginx/nginx.conf:1
+2018/04/24 13:25:49 [emerg] 1#1: unknown directive ":quser" in /etc/nginx/nginx.conf:1
+2018/04/24 13:26:38 [emerg] 1#1: unknown directive ":quser" in /etc/nginx/nginx.conf:1
+2018/04/24 13:26:46 [emerg] 1#1: unknown directive ":quser" in /etc/nginx/nginx.conf:1
+2018/05/02 15:18:53 [emerg] 1#1: a duplicate listen [::]:80 in /etc/nginx/sites-available/matters.conf:5
+2018/05/02 15:19:24 [emerg] 1#1: duplicate listen options for [::]:80 in /etc/nginx/sites-available/matters.conf:4
+2018/05/02 15:20:38 [emerg] 1#1: duplicate listen options for [::]:80 in /etc/nginx/sites-available/matters.conf:4
+2018/05/02 15:21:01 [emerg] 1#1: duplicate listen options for [::]:80 in /etc/nginx/sites-available/matters.conf:4
+2018/05/02 15:22:18 [emerg] 1#1: duplicate listen options for [::]:80 in /etc/nginx/sites-available/matters.conf:4
+2018/05/02 15:23:04 [emerg] 1#1: duplicate listen options for [::]:80 in /etc/nginx/sites-available/matters.conf:4
+2018/05/02 15:23:53 [emerg] 1#1: duplicate listen options for [::]:80 in /etc/nginx/sites-available/matters.conf:4
+2018/05/02 15:24:08 [emerg] 1#1: duplicate listen options for [::]:80 in /etc/nginx/sites-available/matters.conf:4
+2018/05/02 15:24:52 [emerg] 1#1: duplicate listen options for [::]:80 in /etc/nginx/sites-available/matters.conf:4
+2018/05/02 15:25:07 [emerg] 1#1: duplicate listen options for [::]:80 in /etc/nginx/sites-available/matters.conf:4
+2018/05/02 15:28:35 [emerg] 1#1: invalid parameter "matters.test1" in /etc/nginx/sites-available/matters.conf:4
